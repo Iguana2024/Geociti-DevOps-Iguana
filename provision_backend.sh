@@ -3,7 +3,7 @@
 # update
 sudo apt update
 
-# install wget, tar, curl, git
+# install wget, tar, curl, and git
 sudo apt install -y wget tar curl git
 
 #install java 1.8.0

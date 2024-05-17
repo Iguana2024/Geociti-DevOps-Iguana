@@ -2,7 +2,7 @@
 #update
 sudo apt update
 
-#install wget, ca-certificates
+#install wget, and ca-certificates
 sudo apt install -y wget ca-certificates
 
 #install postgresql
