@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
       vb.memory = "1024"
     end
     backend.vm.provision "shell", inline: <<-SHELL
-      #git 
+      #
     SHELL
     backend.vm.provision "file", source: "./provision_backend.sh", destination: "/tmp/provision_backend.sh"
     backend.vm.provision "shell", inline: "sudo chmod +x /tmp/provision_backend.sh && sudo bash /tmp/provision_backend.sh"
